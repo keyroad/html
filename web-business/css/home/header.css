@@ -1,0 +1,127 @@
+.header{
+
+	height: 335px;
+	background-image: url("../../images/header-background.png");
+
+}
+.header div{
+	width: 50%;
+	height: 335px;
+}
+
+#text-button p{
+	font-family: "Trebuchet MS";
+	color: #ffffff;
+	
+	-webkit-text-shadow: #0535b1 2.5px 4.33px 5px;
+	-moz-text-shadow: #0535b1 2.5px 4.33px 5px;
+	-ms-text-shadow: #0535b1 2.5px 4.33px 5px;
+	-o-text-shadow: #0535b1 2.5px 4.33px 5px;
+	text-shadow: #0535b1 2.5px 4.33px 5px;	
+	letter-spacing: -1.25px;
+}
+#text-button{
+	float: left;
+}
+
+#text-1{
+	padding: 86px 0px 0px 41px;
+	margin: 0px;
+	font-weight: normal;
+	font-size: 29px;
+}
+
+#text-2{
+	margin-top: 2px;
+	padding-left: 41px;
+	font-weight: bold;
+	font-size: 35px;
+	text-transform: uppercase;
+}
+
+#get-started{
+	margin-left: 55px;
+}
+
+#sliderFrame{
+	float: right;
+}
+
+#slider-container{
+	margin: 42px 0px 0px 10px;
+	background-image: url("../../images/slider-background.png");
+	width: 402px;
+	height: 317px;
+	padding: 16px 21px 0px;
+}
+
+#uv{
+	font-size: 20px;
+	width: 188px;
+	color: #ffffff;
+	margin-top: 0px;
+	margin-bottom: 8px;
+}
+
+#slider-images{
+	text-align: center;
+}
+
+#slider{
+	list-style-type: none;
+}
+.slider-wrapper{
+	padding: 0px;
+	margin: 0px;
+	position: relative;
+	width: 398px;
+	height: 268px;
+	overflow: hidden;
+}
+
+.slider-wrapper li{
+	display: none;
+}
+
+li.slide-current{
+	display: block;
+}
+
+.slider-wrapper li img{
+	position: absolute;
+	max-width: 100%;
+	height: auto;
+}
+
+/*Controles del slider*/
+.slider-controls{
+	float: right;
+	height: 20px;
+	margin-top: -40px;
+}
+
+.slider-controls li{
+	background-color: #021763;
+	-webkit-border-radius: 50%;
+	 -moz-border-radius: 50%;
+	 -ms-border-radius: 50%;
+	 -o-border-radius: 50%;
+	 border-radius: 50%; 
+	box-shadow: inset 1px 3px 4px 3px rgba(1, 7, 29, 0.28);
+	-moz-box-shadow: inset 1px 3px 4px 3px rgba(1, 7, 29, 0.28);
+	-webkit-box-shadow: inset 1px 3px 4px 3px rgba(1, 7, 29, 0.28);
+	 display: inline-block;
+	 height: 14px;
+	 width: 14px;
+	 margin: 12px 3px;
+	 padding: 1px;
+	 cursor:pointer;
+}
+
+.slider-controls li.active,.slider-controls li:hover{
+	background: #ffffff;
+}
+
+
+
+

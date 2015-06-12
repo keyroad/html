@@ -1,0 +1,40 @@
+.blurbs{
+	width: 100%;
+	height: 122px;
+	background-color: #eaebed;
+	border-bottom: solid 2px #cecece;
+}
+
+.blurbs > div{
+	width: 258px;
+	height: 82px;
+	display: inline-block;
+	margin: 37px 0px 0px 44.5px;
+}
+.blurbs > div > p{
+	color: #656565;
+	margin: 0px;
+}
+.hh{
+	padding: 7px 0px 0px 80px;
+	font-size: 15px;
+}
+.hb{
+	padding-left: 80px;
+	font-size: 12px;
+	font-weight: normal;
+}
+
+#blurb-1{
+	background-image: url("../../images/pocket.png");
+	background-repeat: no-repeat;
+}
+
+#blurb-2{
+	background-image: url("../../images/clock.png");
+	background-repeat: no-repeat;
+}
+#blurb-3{
+	background-image: url("../../images/ring.png");
+	background-repeat: no-repeat;
+}

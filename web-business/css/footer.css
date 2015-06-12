@@ -1,0 +1,112 @@
+#footer{
+	width: 100%;
+	height: 220px;
+	background-color: #ededed;
+	-webkit-box-shadow: inset 0px 5px 2px -1px rgba(161,158,161,0.67);
+	-moz-box-shadow: inset 0px 5px 2px -1px rgba(161,158,161,0.67);
+	box-shadow: inset 0px 5px 2px -1px rgba(161,158,161,0.67);
+}
+
+.footdiv{
+	float: left;
+	height: 190px;
+}
+
+.footdiv p{
+	margin: 0px;
+}
+#browse{
+	width: 15%;
+	margin: 21px 0px 0px 41px;
+}
+#test{
+	width: 32%;
+	margin: 21px 0px 0px 85px;
+	
+}
+#blog{
+	width: 32%;
+	margin: 21px 0px 0px 67px;
+	
+}
+.hfoot{
+	margin: 0px;
+	font-size: 15px;
+	color: #585858;
+}
+#brom{
+	padding: 0px;
+	font-size: 12px;
+	font-weight: normal;
+	list-style: none;
+	margin: 10px 0px 0px;
+}
+#brom li{
+	padding: 0px 0px 5px 0px; 
+}
+#brom li a{
+	text-decoration: none;
+	color: #585858;
+}
+#ptest{
+	font-size: 12px;
+	color: #585858;
+	font-weight: normal;
+	line-height: 1.6;
+	margin: 26px 0px 0px;
+
+}
+
+#ftest{
+	color:#000000;
+	font-size: 12px;
+	margin: 0px;
+	line-height: 1.6;
+}
+
+.pblog, .hblog{
+	font-size: 12px;
+	font-weight: normal;
+	color: #585858;	
+	margin: 0px;
+}
+
+.hblog{
+	padding: 15px 0px 0px;
+}
+
+.refblog{
+	font-size: 12px;
+	text-decoration: none;
+	color: #0f4db6;
+	margin: 10px 0px 0px;
+}
+#foot-page{
+	width: 100%;
+	height: 61px;
+	background-color: #ededed;
+	border-top: inset 1px #cccccc;
+	border-radius: 0px 0px 8px 8px;
+}
+
+#copyr{
+	float: left;
+	margin: 0px;
+	width: 512px;
+	height: 100%;
+	padding: 20px 0px 0px 41px;
+	font-size: 12px;
+	font-weight: normal;
+	color: #585858;
+}
+.buss{
+	margin: 18px 41px 0px 35px;
+	float: right;
+}
+#buss{
+	opacity: 0.251;
+}
+.socialnet{
+	float: right;
+	margin: 19px 21px 0px 0px;
+}
